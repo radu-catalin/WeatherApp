@@ -14,7 +14,7 @@ class App extends Component {
       <Provider store={store}>
         <div className="app">
           <div className="container">
-            <div className="weather-content" style={{ position: 'relative', height: '100vh'}}>
+            <div className="weather-content">
               <Search />
               <Content/>
             </div>
